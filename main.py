@@ -6,7 +6,7 @@ server_port = 8080
 
 
 class MyServer(BaseHTTPRequestHandler):
-    """ Light Web Server"""
+    """Light Web Server"""
 
     def get_content(self) -> str:
         """Return text information"""
